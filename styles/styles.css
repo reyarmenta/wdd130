@@ -11,6 +11,7 @@ main {
 aside {
     width: 20rem;
     text-align: center;
+    position: relative;
 }
 
 aside img {
@@ -54,7 +55,7 @@ footer {
 
 aside h2 {
     position: absolute;
-    top: 47px;
+    top: 20px;
     left: 150px;
 }
 
