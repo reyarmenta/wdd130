@@ -15,8 +15,32 @@
     --nav-hover-background-color: #D7974F;
 }
 
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    text-align: center;
+    list-style: none;
+}
+
+.logo-box img {
+    width: 80px;
+    height: auto;
+    margin: 0 0.24rem 0 1rem;
+}
+
 nav a {
     text-decoration: none;
+    margin: 20px;
+    border: 1px black;
+    padding: 20px;
 }
 
 body {
@@ -65,4 +89,46 @@ article {
     width: 20%;
     height: auto;
     float: right;
+}
+
+section {
+    text-align: center;
+}
+
+figure {
+    display: flex;
+    flex-flow: column nowrap;
+    position: relative;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+figure img {
+    width: 220px;
+    height: auto;
+}
+
+figcaption {
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    padding: 3px;
+    text-align: center;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+footer img {
+    max-width: 40px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
 }
