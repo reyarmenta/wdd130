@@ -95,6 +95,10 @@ section {
     text-align: center;
 }
 
+.adventure {
+    grid: flex;
+}
+
 figure {
     display: flex;
     flex-flow: column nowrap;
