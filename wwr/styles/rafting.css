@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #20B2AA;
-    /* Light Sea Green*/
-    --secondary-color: #66CDAA;
-    /* Medium Aqua Marine*/
+    --primary-color: #000080;
+    /* Navy*/
+    --secondary-color: #0000FF;
+    /* Blue*/
     --accent1-color: #B22222;
     /*Fire Brick*/
     --accent2-color: #FF7F50;
