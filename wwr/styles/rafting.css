@@ -139,7 +139,7 @@ article {
 }
 
 figcaption {
-    color: white;
+    color: var(--secondary-color);
 }
 
 section h2 {
