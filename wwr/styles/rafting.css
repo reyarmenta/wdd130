@@ -22,6 +22,28 @@ body {
     color: var(--accent1-color)
 }
 
+header {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    align-items: center;
+    margin: 1rem auto;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+header img {
+    justify-self: center;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
 header,
 main,
 footer {
@@ -84,4 +106,55 @@ article {
     border: solid black;
     margin: 10px;
     box-shadow: 0 0 20px #333;
+}
+
+.centered-image {
+    float: left;
+    margin: 20px;
+    width: 250px;
+}
+
+.adventure {
+    background-color: var(--accent2-color);
+}
+
+.adventure ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 5px;
+    padding: 5px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.adventure li {
+    list-style: none;
+}
+
+.adventure img {
+    margin: 5px;
+    padding: 5px;
+}
+
+figcaption {
+    color: white;
+}
+
+section h2 {
+    text-align: center;
+}
+
+footer {
+    position: relative;
+}
+
+footer p {
+    position: absolute;
+}
+
+footer nav {
+    position: relative;
+    float: right;
 }
