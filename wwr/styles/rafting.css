@@ -114,10 +114,6 @@ article {
     width: 250px;
 }
 
-.adventure {
-    background-color: var(--accent2-color);
-}
-
 .adventure ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
