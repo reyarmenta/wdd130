@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | The Rapids</title>
+    <meta name="description"
+      content="Contact information for the company,adress, phone number, email. It also has a small form for the user to fill out to get in touch. ">
+    <meta name="author" content="Reynaldo Armenta Bravo">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Company logoo" width="100">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contact">
+            <h1>The Rapids</h1>
+            <p>123 Main River Street</p>
+            <p>Carlsbad, New Mexico</p>
+            <p>+1 999 999 9999</p>
+            <p>info@therapids.com</p>
+        </div>
+        <section>
+            <form>
+                <div class="form-item column2">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-item column2">
+                    <label for="email">Email:</label>
+                    <input type="email" id="useremail" name="useremail" required>
+                </div>
+
+
+                <div class="form-item column1">
+                    <p>Message Purpose</p>
+                    <input type="radio" id="general" name="purpose" value="general">
+                    <label for="general">General Inquiry</label><br>
+                    <input type="radio" id="reservation" name="purpose" value="reservation">
+                    <label for="reservation">Reservation Question</label><br>
+                    <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                    <label for="suggestion">Webstie Suggestion</label>
+                </div>
+
+                <div class="form-item column1">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="4"
+                      placeholder="Type here"></textarea>
+                </div>
+
+                <div class="form-item column1">
+                    <input type="checkbox" name="subscribe" id="subscribe">
+                    <label for="subscribe">Please Subscribe me to the monthly newsletter</label>
+                </div>
+
+                <button type="submit">Get in Touch!</button>
+            </form>
+
+
+            <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13472.410646140623!2d-104.22509298729663!3d32.416408042475105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sus!4v1771099867240!5m2!1ses-419!2sus"
+                  width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </section>
+        <section class="serve">
+            <h2>We are Here to Serve You</h2>
+            <ul>
+
+                <li>
+                    <figure>
+                        <img src="images/edwin.jpg" alt="Edwin" width="150">
+                        <figcaption>Edwin</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/ale.jpg" alt="Ale" width="150">
+                        <figcaption>Ale</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/rey.jpg" alt="Rey" width="150">
+                        <figcaption>Rey</figcaption>
+                    </figure>
+                </li>
+            </ul>
+
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2026 💧 The Rapids 💧 Reynaldo Armenta Bravo </p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Black Facebook Icon" width="25">
+            </a>
+            <a href="https://youtube.com">
+                <img src="images/youtube.svg" alt="Black YouTube Icon" width="25">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="black instagram Icon" width="25">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>

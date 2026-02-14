@@ -63,10 +63,23 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+    text-align: center;
 }
 
 .socialmedia a {
     text-decoration: none;
+}
+
+.contact h1 {
+    text-align: center;
+    margin: 16px;
+    padding: 10px;
+
+}
+
+.contact p {
+    margin: 0;
+    padding: 0;
 }
 
 .hero {
@@ -134,8 +147,37 @@ article {
     padding: 5px;
 }
 
+.form {
+    word-spacing: 1rem;
+}
+
 figcaption {
     color: var(--secondary-color);
+}
+
+.map {
+    margin: 10px;
+    padding: 10px;
+}
+
+.serve ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 5px;
+    padding: 5px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.serve li {
+    list-style: none;
+}
+
+.serve img {
+    margin: 5px;
+    padding: 5px;
 }
 
 section h2 {
